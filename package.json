@@ -1,0 +1,28 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "forkify web",
+  "scripts": {
+    "default": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "David Carbo",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.3",
+    "assert": "^2.0.0",
+    "os-browserify": "^0.3.0",
+    "parcel": "^2.8.3",
+    "path-browserify": "^1.0.1",
+    "process": "^0.11.10",
+    "stream-browserify": "^3.0.0",
+    "util": "^0.12.5"
+  },
+  "dependencies": {
+    "core-js": "^3.27.2",
+    "fractional": "^1.0.0",
+    "fracty": "^1.0.11",
+    "regenerator": "^0.14.10",
+    "runtime": "^0.14.1"
+  }
+}
